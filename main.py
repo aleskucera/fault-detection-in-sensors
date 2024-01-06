@@ -12,7 +12,7 @@ from utils import load_data, filter_outliers, create_dataset
 def main():
     data = load_data('House_12.csv')
     data = filter_outliers(data, 3)
-    dataset = create_dataset(data, 100, 1)
+    dataset = create_dataset(data, 1, 1)
     print(dataset)
 
 

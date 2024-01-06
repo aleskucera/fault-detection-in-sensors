@@ -168,7 +168,7 @@ def inject_drift(df: pd.DataFrame, column: str, drift_slope: float, failure_rate
 
 
 if __name__ == "__main__":
-    data = load_dataset('House_12.csv')
+    data = load_data('House_12.csv')
 
     # Visualize the column "T_1ST_AVG"
     data['T_1ST_AVG'].plot()
